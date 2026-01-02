@@ -1,3 +1,6 @@
+board = {"K" : "♔", "Q" : "♕", "R" : "♖", "B" : "♗", "N" : "♘", "P" : "♙", 
+         "k" : "♚", "q" : "♛", "r" : "♜", "b" : "♝", "n" : "♞", "p" : "♟"}
+
 def printBOARD(board) :
     for number in range (1, 9) :
         print ("---"*11, end = "\n")
@@ -9,6 +12,5 @@ def printBOARD(board) :
         print ()
     print ("---"*11)
 
-printBOARD()
-
+printBOARD(board)
 print ("\n\n")
